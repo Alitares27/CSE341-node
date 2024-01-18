@@ -1,1 +1,6 @@
 GET http://localhost:8080/users
+################################
+
+GET http://localhost:8080/users/65a2c620077fa594a638df8a
+
+

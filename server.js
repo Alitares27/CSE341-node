@@ -7,8 +7,10 @@ const MongoClient = require('mongodb').MongoClient;
 const userRoutes = require('./routes/users');
 
 const port = 8080;
+app.use(bodyParser.json());
 
 app.use('/', require('./routes/'));
+
 
 app.use(express.static('frontend'));
 
