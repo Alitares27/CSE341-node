@@ -7,7 +7,7 @@
     "title": "REST API",
     "description": ""
   },
-  "host": "https://project-pvvf.onrender.com",
+  "host": "project-pvvf.onrender.com",
   "basePath": "/",
   "schemes": [
     "http",
