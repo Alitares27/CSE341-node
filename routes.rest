@@ -1,6 +1,37 @@
+## Get all the Users
 GET http://localhost:8080/users
 ################################
 
-GET http://localhost:8080/users/65a2c620077fa594a638df8a
+## Get User by Id
+GET http://localhost:8080/users/65a9d8bed6fdfe7ad0ec5f62
 
+################################
 
+## Create User
+POST http://localhost:8080/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Franz",
+    "lastName": "Beckenbauer",
+    "email": "franz@mail.com",
+    "favoriteColor":"yellow",
+    "birthday": "09/11/1945"
+}
+
+################################
+## Update User
+PUT http://localhost:8080/users/65a2c4b3077fa594a638df89
+Content-Type: application/json
+
+{
+    "firstName": "Franz",
+    "lastName": "Beckenbauer",
+    "email": "beckenbauer@mail.com",
+    "favoriteColor":"yellow",
+    "birthday": "09/11/1945"
+}
+
+################################
+## Delete User
+DELETE http://localhost:8080/users/65a2c4b3077fa594a638df89
