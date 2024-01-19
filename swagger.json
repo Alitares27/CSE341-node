@@ -41,7 +41,9 @@
         }
       },
       "post": {
-        "tags": [],
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -81,7 +83,9 @@
     },
     "/users/{id}": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "produces": [
           "application/json"
@@ -104,7 +108,9 @@
         }
       },
       "put": {
-        "tags": [],
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
@@ -124,7 +130,9 @@
         }
       },
       "delete": {
-        "tags": [],
+        "tags":[
+          "Users"
+        ],
         "description": "",
         "parameters": [
           {
